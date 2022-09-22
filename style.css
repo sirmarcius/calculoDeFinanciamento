@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://www.ciacontabilmaef.com.br/wp-content/uploads/2021/12/IMAGEM-4-768x432.png");
+  background-color: #000000;
+  background-size: 180vh;
+  background-position: center up;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.page-title {
+  color: black;
+  background-color: white;
+  margin-bottom: 0 5px;
+}
+
+.page-subtitle {
+  color: black;
+  background-color: white;
+  margin-top: 0 5px;
+}
+
+.box {
+  padding-top: 10%;
+}
+
+#bts {
+  margin-top: 4%;
+}
+
+.result {
+  margin-top: 4%;
+  font-size: 20px;
+  color: yellow;
+  margin-top: 2.5em;
+}
+
+#valorFi {
+  text-align: center;
+  width: 6em;
+  border-radius: 10%;
+}
+
+#taxaJuro {
+  text-align: center;
+  width: 4em;
+  border-radius: 10%;
+}
+
+label {
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding-bottom: 1em;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: yellowgreen;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type="number"] {
+  color: red;
+}
