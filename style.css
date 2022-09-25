@@ -24,7 +24,7 @@ body {
 .page-title {
   color: black;
   background-color: white;
-  margin-bottom: 0 5px;
+  margin: 0;
 }
 
 .page-subtitle {
