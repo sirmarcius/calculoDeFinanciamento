@@ -91,3 +91,15 @@ input[type="number"] {
 input[type="number"] {
   color: red;
 }
+
+input[type="button"]:hover {
+  background-color: graytext;
+  color: white;
+  font-size: 0.7em;
+}
+
+input[type="button"] {
+  height: 3em;
+  width: 4em;
+  border-radius: 1em 1em 1em 1em;
+}
