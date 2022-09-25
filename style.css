@@ -95,7 +95,6 @@ input[type="number"] {
 input[type="button"]:hover {
   background-color: graytext;
   color: white;
-  font-size: 0.7em;
 }
 
 input[type="button"] {
