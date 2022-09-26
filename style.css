@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Oswald', sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
@@ -107,10 +108,8 @@ input[type="button"] {
 }
 
 @media screen and (max-width: 198px) {
-  .container {  }
   body {
     background-image: none;
     background-color: blue;
   }
-    
-  }
+}
