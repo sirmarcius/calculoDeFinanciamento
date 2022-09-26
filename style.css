@@ -48,7 +48,8 @@ body {
 .result {
   margin-top: 4%;
   font-size: 20px;
-  color: yellow;
+  font-weight: bold;
+  color: grayscale;
   margin-top: 2.5em;
 }
 
