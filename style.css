@@ -9,7 +9,7 @@
 body {
   font-family: "Roboto Mono", monospace;
   min-height: 400px;
-  background-imagem: url("https://www.ciacontabilmaef.com.br/wp-content/uploads/2021/12/IMAGEM-4-768x432.png");
+  background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );
   background-color: #000000;
   background-size: 100vh;
   background-size: 100vw;
@@ -108,8 +108,5 @@ input[type="button"] {
 }
 
 @media screen and (max-width: 198px) {
-  body {
-    background-image: none;
-    background-color: blue;
-  }
+  
 }
