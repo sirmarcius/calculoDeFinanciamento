@@ -9,7 +9,7 @@
 body {
   font-family: "Roboto Mono", monospace;
   min-height: 400px;
-  background-color: rgba('#0431B4');
+  background-color: #0431B4;
   background-size: 100vh;
   background-size: 100vw;
   background-position: center;
