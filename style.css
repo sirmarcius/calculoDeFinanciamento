@@ -105,9 +105,11 @@ input[type="button"] {
   border-radius: 1em 1em 1em 1em;
 }
 
-@media only screen and (max-width: 600em) {
+@media screen and (max-width: 198px) {
+  .container {  }
   body {
-    background-size: 100vh;
-    background-size: 100vw ;
+    background-image: url("");
+    background-color: blue;
   }
-}
+    
+  }
