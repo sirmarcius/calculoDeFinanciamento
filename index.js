@@ -6,7 +6,7 @@ function calcular() {
   let n2 = parseFloat(document.getElementById("taxaJuro").value);
 
   // Calcula o financiamento 
-  let r = Number((n1 * (n2/100) - (25/100)));
+  let r = Number((n1*(n2/100))-(n1*(n2/100)*(25/100)));
   // valida o conteudo que foi pegado no input
   if (r.toString() === "NaN") return;
   // Sai da função quando da erro 
