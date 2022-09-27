@@ -10,11 +10,11 @@ R5: 10.000 x 6,0% - 25% = R$ 450,00
 
 // Função que ativa o botão de calculo
 function calcular() {
-  let n1 =parseFloat(document.getElementById("valorFi").value);
+  let n1 = parseFloat(document.getElementById("valorFi").value);
   
   // Calcula o financiamento 
   let resultado0 = Number((n1*(1.2/100))-(n1*(1.2/100)*(25/100)));
-  let resultado1 = Number((n1*(2.4/100))-(n1*(2.4/100)*(25/100)));
+  let resultado1= Number((n1*(2.4/100))-(n1*(2.4/100)*(25/100)));
   let resultado2 = Number((n1*(3.6/100))-(n1*(3.6/100)*(25/100)));
   let resultado3 = Number((n1*(4.8/100))-(n1*(4.8/100)*(25/100)));
   let resultado4 = Number((n1*(6.0/100))-(n1*(6.0/100)*(25/100)));
@@ -41,12 +41,11 @@ document.querySelector(".result4").innerText =
 // Função que limpa as entradas de dados
 function limpar() {
   document.getElementById("valorFi").value = null;
-  document.getElementById("taxaJuro").value = null;
   document.querySelector(".result0").innerText = "" 
-  document.querySelector(".result1").innerText = "" 
-  document.querySelector(".result2").innerText = "" 
-  document.querySelector(".result3").innerText = "" 
-  document.querySelector(".result4").innerText = "" 
+  document.querySelector(".result1").innerText = ""
+  document.querySelector(".result2").innerText = ""
+  document.querySelector(".result3").innerText = ""
+  document.querySelector(".result4").innerText = ""
      
 }
   
