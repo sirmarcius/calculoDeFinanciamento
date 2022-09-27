@@ -44,7 +44,39 @@ body {
   margin-top: 4%;
 }
 
-.result {
+.result0 {
+  margin-top: 4%;
+  font-size: 20px;
+  font-weight: bold;
+  color: grayscale;
+  margin-top: 2.5em;
+}
+
+.result1 {
+  margin-top: 4%;
+  font-size: 20px;
+  font-weight: bold;
+  color: grayscale;
+  margin-top: 2.5em;
+}
+
+.result2 {
+  margin-top: 4%;
+  font-size: 20px;
+  font-weight: bold;
+  color: grayscale;
+  margin-top: 2.5em;
+}
+
+.result3 {
+  margin-top: 4%;
+  font-size: 20px;
+  font-weight: bold;
+  color: grayscale;
+  margin-top: 2.5em;
+}
+
+.result4 {
   margin-top: 4%;
   font-size: 20px;
   font-weight: bold;
