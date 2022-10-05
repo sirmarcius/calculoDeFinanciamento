@@ -37,7 +37,7 @@ document.querySelector(".result2").innerText =
 document.querySelector(".result3").innerText =
     "R4: A rentabilidade será de R$" + resultado3.toFixed(2);
 document.querySelector(".result4").innerText =
-    "R5: A rentabilidade serś de R$" + resultado4.toFixed(2);  
+    "R5: A rentabilidade será de R$" + resultado4.toFixed(2);  
 }
 
 // Função que limpa as entradas de dados
