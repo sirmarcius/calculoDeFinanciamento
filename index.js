@@ -15,7 +15,7 @@ function calcular() {
   
   // Calcula o financiamento 
   let resultado0 = Number((n1*(1.2/100))-(n1*(1.2/100)*(25/100)));
-  let resultado1= Number((n1*(2.4/100))-(n1*(2.4/100)*(25/100)));
+  let resultado1 = Number((n1*(2.4/100))-(n1*(2.4/100)*(25/100)));
   let resultado2 = Number((n1*(3.6/100))-(n1*(3.6/100)*(25/100)));
   let resultado3 = Number((n1*(4.8/100))-(n1*(4.8/100)*(25/100)));
   let resultado4 = Number((n1*(6.0/100))-(n1*(6.0/100)*(25/100)));
