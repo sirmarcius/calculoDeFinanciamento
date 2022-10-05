@@ -26,6 +26,7 @@ function calcular() {
   if (resultado2.toString() === "NaN") return;
   if (resultado3.toString() === "NaN") return;
   if (resultado4.toString() === "NaN") return;
+  
   // Sai da função quando da erro 
 document.querySelector(".result0").innerText =
     "R1: A rentabilidade será de R$ " + resultado0.toFixed(2);
