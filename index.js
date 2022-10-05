@@ -1,6 +1,7 @@
 // Calculadora de Financiamento
 
-/* 
+/*
+Exemplo:
 R1: 10.000 x 1,2% - 25% = R$ 90,00
 R2: 10.000 x 2,4% - 25% = R$ 180,00
 R3: 10.000 x 3,6% - 25% = R$ 270,00
@@ -27,15 +28,15 @@ function calcular() {
   if (resultado4.toString() === "NaN") return;
   // Sai da função quando da erro 
 document.querySelector(".result0").innerText =
-    "R1: A rentabilidade sera de R$" + resultado0.toFixed(2);
+    "R1: A rentabilidade será de R$ " + resultado0.toFixed(2);
 document.querySelector(".result1").innerText =
-    "R2: A rentabilidade sera de R$" + resultado1.toFixed(2);
+    "R2: A rentabilidade será de R$" + resultado1.toFixed(2);
 document.querySelector(".result2").innerText =
-    "R3: A rentabilidade sera de R$" + resultado2.toFixed(2);
+    "R3: A rentabilidade será de R$" + resultado2.toFixed(2);
 document.querySelector(".result3").innerText =
-    "R4: A rentabilidade sera de R$" + resultado3.toFixed(2);
+    "R4: A rentabilidade será de R$" + resultado3.toFixed(2);
 document.querySelector(".result4").innerText =
-    "R5: A rentabilidade sera de R$" + resultado4.toFixed(2);  
+    "R5: A rentabilidade serś de R$" + resultado4.toFixed(2);  
 }
 
 // Função que limpa as entradas de dados
